@@ -1,0 +1,108 @@
+h1{
+    color: rgb(47, 9, 153);
+}
+.avatar {
+    background-image: url("abhi.jpg");
+    background-size: 170px 200px;
+    background-color: black;
+    width: 170px;
+    height: 200px;
+    border: 6px solid;
+    
+
+}
+#name {
+    border-radius: 10px;
+    background-image: url("solidLigth.jpg");
+    background-size: 100px;
+    color: rgb(134, 218, 192);
+    width: 240px;
+    height: 45px;
+    background-color: rgba(0, 140, 255, 0.87);
+    font-family: cursive;
+    font-size: large; 
+}
+#main {
+    background-color: black;
+    color: black;
+    position: 50px 50px;
+}
+#upperWall{
+    background-image: url("road.jpg");
+    background-size: 1262px;
+    background-color: black;
+    width: 1260px;
+    height: 200px;
+    position: absolute;
+    bottom:-1200px;
+    width: 100%;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+.info{
+    border-radius: 10px;
+    background-image: url("rose.jpg");
+    background-size: 255px 80px;
+    background-color: darkorchid;
+    width: 250px;
+    height: 80px;
+    font-size: 14px;
+}
+ul {
+    color: rgb(2, 17, 3);
+}
+#sk {
+    list-style-type: katakana;
+    font-family: cursive;
+    color: rgb(1, 5, 1);
+}
+#skills {
+    border-radius: 10px;
+    background-image: url("rose.jpg");
+    background-color: darkslategrey;
+    background-size: 255px 130px;
+    color: rgb(11, 20, 3);
+    width: 250px;
+    height: 120px;
+    box-shadow: 10px;
+}
+#social {
+    float: left;
+}
+#social ul li {
+        display: inline;
+}
+#socialMedia {
+    opacity: 1;
+    width: 210px;
+    height: 50px;
+}
+
+.fb:hover {
+    opacity: 0.7;
+}
+.lin:hover {
+    opacity: 0.7;
+}
+.ins:hover {
+    opacity: 0.7;
+}
+#about {
+    border: 10px solid;
+    border-color: black;
+    width: 800px;
+    height: 400px;
+    
+}
+#ski {
+    color: black;
+    font-size: 20px;
+}
+p{
+    font-size: 30px;
+    color: aliceblue;
+}
+#aboutH{
+    width: 800px;
+    height: 50px;
+}
