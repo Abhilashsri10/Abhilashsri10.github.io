@@ -14,13 +14,13 @@ h1{
 #name {
     border-radius: 10px;
     background-image: url("solidLigth.jpg");
-    background-size: 100px;
-    color: rgb(206, 226, 220);
-    width: 240px;
+    background-size: 80px 60px;
+    color: rgb(31, 160, 121);
+    width: 200px;
     height: 45px;
     background-color: rgba(0, 140, 255, 0.87);
     font-family: 'Satisfy', cursive;
-    font-size: 20px;
+    font-size: 15px;
 }
 #main {
     background-color: black;
@@ -31,7 +31,6 @@ h1{
     background-image: url("road.jpg");
     background-size: 1262px;
     background-color: black;
-    width: 1260px;
     height: 200px;
     position: absolute;
     bottom:-1200px;
@@ -56,6 +55,8 @@ ul {
     color: rgb(2, 17, 3);
 }
 #sk {
+    position: relative;
+    top:20%;
     list-style-type: katakana;
     font-family: 'Pacifico', cursive;
     color: rgb(1, 5, 1);
@@ -100,9 +101,13 @@ ul {
     
 }
 #ski {
+    border: 2px solid;
+    border-color: black;
+    width: 100px;
     font-family: 'Pacifico', cursive;
-    color: rgb(10, 104, 52);
+    color:darkmagenta;
     font-size: 20px;
+    text-align: center;
 }
 p{
     font-size: 30px;
@@ -111,6 +116,7 @@ p{
 #aboutH{
     width: 800px;
     height: 50px;
+    color: chartreuse;
 }
 .blockSk {
     font-size: 20px;
@@ -136,4 +142,36 @@ p{
         height: 10px;
       border-radius: 10px;
       background-color: blue;  
+}
+#gitbut {
+    opacity: 0.8;
+    width: 400px;
+    color: aqua;
+}
+.gitRepo {
+    border: 10px dashed;
+    color:black;
+    border-color:black;
+    border-radius: 10px;
+    width: 400px;
+}
+#octocat {
+    width: 50px;
+    height: 50px;
+}
+.gitLink {
+    border-radius: 10px;
+    background-color: chartreuse;
+    color:brown;
+}
+#resume {
+    width: 70px;
+    height: 40px;
+}
+#resumebutton:hover {
+    animation: step-end;
+    background-color:darkseagreen;
+}
+#texthov:hover {
+    color: deeppink;
 }

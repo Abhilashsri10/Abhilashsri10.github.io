@@ -13,9 +13,6 @@
                     background-color: blue;
                 }
             </style>
-            <!--div{
-                color:
-            }-->
     </head>
     <body>
         <div id="upperWall" style="position: absolute;left:0px;top: 0px;"><img src="css/musician.jpg" style="position: relative;left:400px;" width="500px" height="200px"/></div>
@@ -27,16 +24,16 @@
                 <a href="https://www.linkedin.com/in/abhilash-srivastava-55829b115/" target="_blank" style="position: relative;left:10px;"><img src="css/003-linkedin.png" style="position: relative;left:15px;" class="lin"/></a>
                 <a href="https://www.instagram.com/abhi_sriv10/" target="_blank" style="position: relative;left:10px;"><img src="css/002-instagram.png" style="position: relative;left:30px;" class="ins"/></a>
         </div>
-        <div id="name" style="position: absolute;left:1000px;top:230px;" ><div style="text-align: center;"><b>ABHILASH SRIVASTAVA</b></div></div>
+        <div id="name" style="position: relative;left:75%;top:20%;" ><div style="text-align: center;">ABHILASH SRIVASTAVA</div></div>
         
-        <div class="info" style="position: relative;left:10px;top:40px">
+        <div class="info" style="position: relative;left:1%;top:30px">
             <ul id="sk">
                 <li>B.TECH  GRADUATE</li>
                 <LI>VIT UNIVERSITY,VELLORE</LI>
                 <LI>ELECTRICAL AND ELECTRONICS, 2019 BATCH</LI>
             </ul>
         </div>
-        <div id="skills" style="position: relative;left:5px;top:50px;">
+        <div id="skills" style="position: relative;left:1%;top:20px;">
             <p id="ski" style="position: relative;left:70px;top:28px;">SKILLS</p>
                 <p class="blockSk" style="position: relative;left:30px;top:5px;"></p>
                     <div class="bar"><span></span></div>
@@ -50,17 +47,25 @@
                 <li>sql</li>
                 <li>python</li>-->
         </div>
-        <div id="about" style="position: relative;top:-400px;left:380px;">
+        <div id="about" style="position: relative;top:-550px;left:380px;">
             <h1 id="aboutH" style="position: relative;left:10px;">About Me</h1>
-            <p style="position: relative;left:15px;">
+            <p style="position: relative;left:15px;" id="texthov">
                 hey,hi what's up, this is abhilash Srivastava, i m an engineer currently employed
                 by enquero global, i have graduated in Electrical and Electronics from VIT 
                 university,vellore.
-                I am a football fanatic and like to code a lot.
+                I am a football fanatic and like to code a lot.Talking about football I'm a barca fan, blaugrana by heart.
+                I'm a metalhead. I listen more of metal core and thrash metal.
             </p>
         </div>
+        <div style="position: relative;top:-500px;left:820px;" id="resume"><a href="https://drive.google.com/file/d/1nLG6gJN376TgjqnOVAKk0pDTGH3fuQyL/view?usp=sharing" target="_blank"><input type="button" value="Resume" id="resumebutton"></input></a></div>
         <script src="javascript/portF.js">
         </script>
+        <script src="javascript/gitApiCall.js"></script>
+        <div style="position: relative;left:30%; top:-560px;" class="gitRepo" onclick="clickAction()">
+            <!--<input type="button" value="click to get git repos"></input>-->
+            <button type="button" style="position: relative;left:1px" id="gitbut"><img src="css/Octocat.png" style="position: relative;left:10px;" id="octocat"/></a>
+            <div id="button"></div>
+        </div>
+        
     </body>
-    
 </html>
