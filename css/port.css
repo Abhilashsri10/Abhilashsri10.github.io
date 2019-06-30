@@ -31,14 +31,10 @@ h1{
     background-image: url("road.jpg");
     background-size: 1262px;
     background-color: black;
-<<<<<<< HEAD
-=======
-    width: 100%;
->>>>>>> 1c102f2265efb991155d9dfe2f2c3c7b410180ff
     height: 200px;
     position: absolute;
     bottom:-1200px;
-    
+    width: 100%;
     background-position-x: 0px;
     background-position-y: 0px;
 }
@@ -147,7 +143,6 @@ p{
       border-radius: 10px;
       background-color: blue;  
 }
-<<<<<<< HEAD
 #gitbut {
     opacity: 0.8;
     width: 400px;
@@ -180,5 +175,3 @@ p{
 #texthov:hover {
     color: deeppink;
 }
-=======
->>>>>>> 1c102f2265efb991155d9dfe2f2c3c7b410180ff
